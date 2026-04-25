@@ -1,4 +1,4 @@
-# Mini RAG Demo
+# RAG Demo
 
 ## Overview
 This project is a simplified implementation of Retrieval-Augmented Generation (RAG) for question answering.
