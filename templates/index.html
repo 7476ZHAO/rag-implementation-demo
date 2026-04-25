@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini RAG Demo</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            background-color: #fff9e6;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        input[type="text"] {
+            width: 90%;
+            padding: 12px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 10px 18px;
+            margin: 5px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px; 
+            cursor: pointer;
+        }
+
+        .rag-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .no-rag-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .answer-box {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #f1f3f6;
+            border-radius: 6px;
+            text-align: left;
+            font-size: 18px;
+        }
+
+        .label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Mini RAG Demo</h2>
+
+    <form method="POST">
+        <input type="text" name="question" placeholder="Ask a question (e.g., What is NLP?)">
+
+        <div class="buttons">
+            <button type="submit" name="mode" value="rag" class="rag-btn">
+                With RAG
+            </button>
+
+            <button type="submit" name="mode" value="no_rag" class="no-rag-btn">
+                Without RAG
+            </button>
+        </div>
+    </form>
+
+    <div class="answer-box">
+        <div class="label">Answer:</div>
+        <p style="white-space: pre-line;">{{ answer }}</p>
+    </div>
+</div>
+
+</body>
+</html>
