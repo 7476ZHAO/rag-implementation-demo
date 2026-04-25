@@ -1,0 +1,33 @@
+[
+    {"text": "RAG stands for Retrieval-Augmented Generation, a method that improves text generation by retrieving external knowledge."},
+    {"text": "RAG combines a retriever and a generator to produce more accurate responses."},
+    {"text": "The retriever finds relevant documents from a knowledge base using similarity search."},
+    {"text": "The generator produces answers based on both the query and retrieved documents."},
+    {"text": "RAG reduces hallucinations by grounding responses in external data."},
+    {"text": "Without RAG, language models rely only on their internal knowledge stored in parameters."},
+
+    {"text": "NLP stands for Natural Language Processing, which enables computers to understand and generate human language."},
+    {"text": "Tokenization is a process in NLP that splits text into words or tokens."},
+    {"text": "Text preprocessing includes lowercasing, removing punctuation, and cleaning text."},
+    {"text": "Semantic search uses embeddings to find meaning-based similarity between texts."},
+    {"text": "Keyword matching is a simple retrieval method based on exact word overlap."},
+
+    {"text": "Large language models like GPT are trained on large datasets and generate text based on learned patterns."},
+    {"text": "Language models may produce hallucinations when they lack accurate information."},
+    {"text": "External knowledge sources help improve the reliability of generated answers."},
+
+    {"text": "Cloud computing enables scalable and flexible deployment of applications."},
+    {"text": "Load balancing distributes incoming requests across multiple servers to improve performance."},
+    {"text": "Microservices architecture divides applications into small, independent services."},
+    {"text": "APIs allow different systems to communicate with each other."},
+
+    {"text": "Databases are used to store and manage structured data efficiently."},
+    {"text": "MongoDB is a NoSQL database that stores data in document format."},
+    {"text": "JSON is a lightweight data format commonly used for data exchange."},
+
+    {"text": "Machine learning enables systems to learn patterns from data and make predictions."},
+    {"text": "Artificial intelligence includes techniques such as machine learning and natural language processing."},
+    {"text": "Large language models need RAG because their internal knowledge is limited and cannot be easily updated, so external information improves accuracy."},
+    {"text": "RAG is useful for knowledge-intensive tasks because it allows the model to retrieve relevant external information instead of relying only on parametric memory."},
+    {"text": "Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and generate human language."}
+]
