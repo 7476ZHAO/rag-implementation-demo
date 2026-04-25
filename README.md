@@ -48,9 +48,9 @@ http://127.0.0.1:5000
 ```
 
 ## Example Questions
--What is RAG?
--Why do large language models need external knowledge?
--How does RAG improve accuracy?
+* What is RAG?
+* Why do large language models need external knowledge?
+* How does RAG improve accuracy?
 
 ## Notes
 * This is a simplified prototype, not a full RAG system
